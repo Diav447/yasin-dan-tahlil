@@ -1,0 +1,15 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.yasin.tahlil'
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.yasin.tahlil"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes { release { minifyEnabled false } }
+    compileOptions { sourceCompatibility 1_8; targetCompatibility 1_8 }
+}
+dependencies {}
