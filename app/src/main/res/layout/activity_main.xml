@@ -5,10 +5,10 @@
     <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
         android:orientation="horizontal" android:padding="12dp" android:background="#1B5E20">
         <TextView android:id="@+id/txtJam" android:layout_width="0dp" android:layout_height="wrap_content"
-            android:layout_weight="1" android:textColor="white" android:text="8.50 WIB" />
+            android:layout_weight="1" android:textColor="#FFFFFF" android:text="8.55 WIB" />
         <Button android:id="@+id/btnMin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A-" />
         <Button android:id="@+id/btnPlus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A+" />
-        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tt" android:textColor="white" android:textSize="20sp" android:padding="8dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tt" android:textColor="#FFFFFF" android:textSize="20sp" android:padding="8dp"/>
     </LinearLayout>
     <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#2E7D32">
         <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
