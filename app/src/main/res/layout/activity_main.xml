@@ -2,47 +2,42 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
  android:layout_width="match_parent" android:layout_height="match_parent"
  android:orientation="vertical" android:background="#121212">
- 
  <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-  android:text="سورة يس و التهلل - OFFLINE" android:textColor="#FFFFFF"
-  android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:padding="16dp" android:background="#1E1E1E"/>
-
- <ScrollView android:id="@+id/scrollContent" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
-   <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp">
-
-    <!-- MENU WAKTU (versi offline, no error input null) -->
-    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#1E1E1E" android:orientation="vertical" android:padding="16dp">
-     <TextView android:id="@+id/txtJam" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="19:43 WIB" android:textColor="white" android:textSize="28sp" android:textStyle="bold"/>
-     <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Mode Offline - No Iklan" android:textColor="#AAAAAA" android:textSize="12sp"/>
-    </LinearLayout>
-
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="FITUR UTAMA" android:textColor="#888" android:textSize="12sp" android:paddingTop="16dp" android:paddingBottom="8dp"/>
-    <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:columnCount="3" android:rowCount="2">
-      <Button android:id="@+id/btnYasin" android:text="YASIN" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" android:layout_margin="4dp"/>
-      <Button android:id="@+id/btnTahlil" android:text="TAHLIL" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" android:layout_margin="4dp"/>
-      <Button android:id="@+id/btnDoa" android:text="DOA TAHLIL" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" android:layout_margin="4dp"/>
-      <Button android:id="@+id/btnQuran" android:text="AL-QURAN" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" android:layout_margin="4dp"/>
-      <Button android:id="@+id/btnMaulid" android:text="MAULID" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" android:layout_margin="4dp"/>
-      <Button android:id="@+id/btnTasbih" android:text="TASBIH" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" android:layout_margin="4dp"/>
-    </GridLayout>
-
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="MENU LAINNYA" android:textColor="#888" android:textSize="12sp" android:paddingTop="16dp" android:paddingBottom="8dp"/>
-    <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:columnCount="2">
-      <Button android:id="@+id/btnAsmaul" android:text="ASMAUL HUSNA" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="4dp"/>
-      <Button android:id="@+id/btnJuz" android:text="JUZ AMMA" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="4dp"/>
-      <Button android:id="@+id/btnFashol" android:text="FASHOLATAN" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="4dp"/>
-      <Button android:id="@+id/btnIstig" android:text="ISTIGHOSAH" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:layout_margin="4dp"/>
-    </GridLayout>
-
-    <TextView android:id="@+id/teksContent" android:layout_width="match_parent" android:layout_height="wrap_content"
-     android:textColor="#E0E0E0" android:textSize="20sp" android:lineSpacingExtra="8dp" android:textDirection="rtl"
-     android:background="#FFF8E1" android:text="Pilih menu di atas bro..." android:padding="16dp" android:layout_marginTop="16dp"/>
-
+  android:text="YASIN &amp; TAHLIL V2 - OFFLINE NO ADS" android:textColor="#FFFFFF"
+  android:textSize="16sp" android:textStyle="bold" android:gravity="center" android:padding="16dp" android:background="#1E1E1E"/>
+ <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp">
+   <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#1E1E1E" android:orientation="vertical" android:padding="16dp">
+    <TextView android:id="@+id/txtJam" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="white" android:textSize="24sp" android:textStyle="bold"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Mode Offline - Bebas Iklan Duolingo" android:textColor="#AAAAAA" android:textSize="12sp"/>
    </LinearLayout>
+   <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="FITUR UTAMA" android:textColor="#888" android:textSize="12sp" android:paddingTop="16dp" android:paddingBottom="8dp"/>
+   <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+     <Button android:id="@+id/btnYasin" android:layout_width="0dp" android:layout_height="80dp" android:layout_weight="1" android:layout_margin="4dp" android:text="YASIN"/>
+     <Button android:id="@+id/btnTahlil" android:layout_width="0dp" android:layout_height="80dp" android:layout_weight="1" android:layout_margin="4dp" android:text="TAHLIL"/>
+     <Button android:id="@+id/btnDoa" android:layout_width="0dp" android:layout_height="80dp" android:layout_weight="1" android:layout_margin="4dp" android:text="DOA"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+     <Button android:id="@+id/btnQuran" android:layout_width="0dp" android:layout_height="80dp" android:layout_weight="1" android:layout_margin="4dp" android:text="QURAN"/>
+     <Button android:id="@+id/btnMaulid" android:layout_width="0dp" android:layout_height="80dp" android:layout_weight="1" android:layout_margin="4dp" android:text="MAULID"/>
+     <Button android:id="@+id/btnTasbih" android:layout_width="0dp" android:layout_height="80dp" android:layout_weight="1" android:layout_margin="4dp" android:text="TASBIH"/>
+    </LinearLayout>
+   </LinearLayout>
+   <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="MENU LAINNYA" android:textColor="#888" android:textSize="12sp" android:paddingTop="16dp" android:paddingBottom="8dp"/>
+   <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+    <Button android:id="@+id/btnAsmaul" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:layout_margin="4dp" android:text="ASMAUL HUSNA"/>
+    <Button android:id="@+id/btnJuz" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:layout_margin="4dp" android:text="JUZ AMMA"/>
+   </LinearLayout>
+   <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+    <Button android:id="@+id/btnFashol" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:layout_margin="4dp" android:text="FASHOLATAN"/>
+    <Button android:id="@+id/btnIstig" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:layout_margin="4dp" android:text="ISTIGHOSAH"/>
+   </LinearLayout>
+   <TextView android:id="@+id/teksContent" android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:textColor="#212121" android:textSize="18sp" android:lineSpacingExtra="6dp" android:background="#FFF8E1" android:padding="16dp" android:layout_marginTop="16dp" android:text="Pilih menu bro..."/>
+  </LinearLayout>
  </ScrollView>
-
- <!-- BOTTOM NAV ala screenshot lu -->
- <LinearLayout android:layout_width="match_parent" android:layout_height="60dp" android:background="#1E1E1E" android:orientation="horizontal">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="56dp" android:background="#1E1E1E" android:orientation="horizontal">
   <Button android:id="@+id/navBeranda" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="Beranda"/>
   <Button android:id="@+id/navTahlil" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="Tahlil"/>
   <Button android:id="@+id/navDoa" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="Doa"/>
