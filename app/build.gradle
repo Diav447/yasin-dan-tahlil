@@ -6,8 +6,8 @@ android {
         applicationId "com.yasin.tahlil"
         minSdk 21
         targetSdk 34
-        versionCode 3
-        versionName "3.0-kurumi-final"
+        versionCode 4
+        versionName "4.0-nu-online-style"
     }
     buildTypes { release { minifyEnabled false } }
     compileOptions { sourceCompatibility JavaVersion.VERSION_1_8; targetCompatibility JavaVersion.VERSION_1_8 }
