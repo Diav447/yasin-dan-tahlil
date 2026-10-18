@@ -8,7 +8,7 @@
  <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
   <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp">
    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#1E1E1E" android:orientation="vertical" android:padding="16dp">
-    <TextView android:id="@+id/txtJam" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="white" android:textSize="24sp" android:textStyle="bold"/>
+    <TextView android:id="@+id/txtJam" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:textSize="24sp" android:textStyle="bold"/>
     <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Mode Offline - Bebas Iklan Duolingo" android:textColor="#AAAAAA" android:textSize="12sp"/>
    </LinearLayout>
    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="FITUR UTAMA" android:textColor="#888" android:textSize="12sp" android:paddingTop="16dp" android:paddingBottom="8dp"/>
